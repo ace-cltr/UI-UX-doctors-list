@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: poppins;
+  margin: 0 auto;
+  background-color: #fbfcfd;
+}
+
+.secondary-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #81cdc6;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 1rem 20rem;
+  color: #4b5665;
+}
+
+.temp-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.person-card {
+  margin: 50px 10px;
+  width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #4b5665;
+}
+.person-card:hover {
+  background-color: #81cdc6;
+  transform: translateY(-2px);
+  color: #fbfcfd;
+}
+
+.person-image {
+  width: 100%;
+  height: auto;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.person-details h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.person-details p {
+  margin: 0;
+  font-size: 1rem;
+}
